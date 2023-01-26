@@ -1,7 +1,7 @@
 --new project+
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
 
-local win = DiscordLib:Window("(New) Sk Hub")
+local win = DiscordLib:Window("World Hub")
 
 local serv = win:Server("Games", "http://www.roblox.com/asset/?id=6031075938")
 
@@ -17,5 +17,274 @@ btns:Button("Septex Adm (Needs Key)", function()
     wait("3")
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
 end)
+btns:Button("Tiger Adm", function()
+    DiscordLib:Notification("Notification", "ruinning Tiger Adm (6 sec)", "Okay!")
+    wait("6")
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script"))()
+end)
+btns:Button("Ymir Adm", function()
+    DiscordLib:Notification("Notification", "ruinning Ymir Adm (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/senorkal/YmirAdmin/main/source'),true))() 
+end)
+btns:Button("Silentaim Prison life", function()
+    DiscordLib:Notification("Notification", "ruinning Silentaim gui (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/Comente/main/ForSKHUBKAVO%20LIB"))()
+end)
+btns:Button("Bang gui Prison life", function()
+    DiscordLib:Notification("Notification", "ruinning bang gui (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/script-for-SKhb/main/script"))()
+end)
 
-local serv = win:Server("Fe scripts", "Yours sex scripts :v")
+local btns = serv:Channel("Universal")
+
+btns:Button("Owl Hub", function()
+    DiscordLib:Notification("Notification", "ruinning Owl Hub (3 sec)", "Okay!")
+    wait("3")
+end)
+btns:Button("Eclipse Hub", function()
+    DiscordLib:Notification("Notification", "ruinning Eclipse Hub (3 sec)", "Okay!")
+    wait("3")
+    getgenv().mainKey = "nil"
+
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end)
+btns:Button("HoHo Hub", function()
+    DiscordLib:Notification("Notification", "ruinning HoHo Hub (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+btns:Button("Infinite Yield", function()
+    DiscordLib:Notification("Notification", "ruinning IY (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
+end)
+btns:Button("VG Hub", function()
+    DiscordLib:Notification("Notification", "ruinning VG Hub (3 sec)", "Okay!")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/Testing-Grounds/main/Supported%20games%20and%20features"))()
+end)
+btns:Button("Dex explorer", function()
+    DiscordLib:Notification("Notification", "ruinning Dex Ex (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/dex/main/dexscript"))()
+end)
+btns:Button("Turtle spy", function()
+    DiscordLib:Notification("Notification", "ruinning Turtle Spy (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://pastebin.com/raw/BDhSQqUU", true))()
+end)
+
+local btns = serv:Channel("Others games")
+--19
+btns:Button("Adm for brookhaven (Mobile and Pc)", function()
+    DiscordLib:Notification("Notification", "ruinning Adm for brookhaven (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+btns:Button("Emergency response script", function()
+    DiscordLib:Notification("Notification", "ruinning Emergency response gui (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/lobox920/Altraxs-Hub/main/Loader.lua", true))()
+end)
+btns:Button("Legends of speed", function()
+    DiscordLib:Notification("Notification", "ruinning Legends of speed gui (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/other-script/main/script"))()
+end)
+btns:Button("Dinosaur Sim", function()
+    DiscordLib:Notification("Notification", "ruinning Dinosaur Sim gui (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Xcom911/DS/main/HoneyBadger'))()
+end)
+btns:Button("Oaklands ore esp", function()
+    DiscordLib:Notification("Notification", "ruinning Oaklands gui (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Oaklands-Ore-esp-8480"))()
+end)
+btns:Button("Jailbreak", function()
+    DiscordLib:Notification("Notification", "ruinning Jailbreak gui (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/AdoptMe"))()
+end)
+btns:Button("Steeps Steps", function()
+    DiscordLib:Notification("Notification", "ruinning Steeps step gui (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/SteepSteps/main/Roblox2901"))()
+end)
+btns:Button("TPS: Street Soccer", function()
+    DiscordLib:Notification("Notification", "ruinning Street Soccer gui (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/hussain1323232234/My-Scripts/main/Street%20Soccer'))()
+end)
+btns:Button("Strucid", function()
+    DiscordLib:Notification("Notification", "ruinning Strucid gui (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet'https://raw.githubusercontent.com/ao-0/methamphetamine-solutions/main/Loader.lua')("https://discord.gg/curPv7uhQc")
+end)
+btns:Button("Faded Main (Da Hood)", function()
+    DiscordLib:Notification("Notification", "ruinning Faded Main (3 sec)", "Okay!")
+    wait("3")
+    _G.Toggles = "V" -- You can put any keybind
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+btns:Button("Faded Silentaim (Da Hood)", function()
+    DiscordLib:Notification("Notification", "ruinning  (3 sec)", "Okay!")
+    wait("3")
+    _G.HideToggle = "RightShift" -- You can put any keybind
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/FadedLock/main/YesEpic"))()
+end)
+btns:Button("Butter Hub (Lumber Tycoon 2)", function()
+    DiscordLib:Notification("Notification", "ruinning Butter (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/butter-hub/main/test%20(2).txt'))()
+end)
+btns:Button("Hydra Network (Evade)", function()
+    DiscordLib:Notification("Notification", "ruinning Hydra Network (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/Hydra/main/HYDRA%20LIB"))()
+end)
+btns:Button("Muscle Legends", function()
+    DiscordLib:Notification("Notification", "ruinning Muscle Legends gui (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Soffware/3kTMd/main/HadesHub.lua"),true))()
+end)
+btns:Button("Arsenal", function()
+    DiscordLib:Notification("Notification", "ruinning Arsenal gui (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main", true))()
+end)
+btns:Button("KAT", function()
+    DiscordLib:Notification("Notification", "ruinning KAT gui (3 sec)", "Okay!")
+    wait("3")
+    if game.PlaceId == 621129760 then
+        loadstring(game:HttpGet("https://pastebin.com/raw/78kG7trR", true))()
+         
+        -- Gui to Lua
+        -- Version: 3.2
+         
+        -- Instances:
+         
+        local ScreenGui = Instance.new("ScreenGui")
+        local Frame = Instance.new("Frame")
+        local TextLabel = Instance.new("TextLabel")
+        local TextButton = Instance.new("TextButton")
+         
+        --Properties:
+         
+        ScreenGui.Parent = game.CoreGui
+        ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+         
+        Frame.Parent = ScreenGui
+        Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+        Frame.BackgroundTransparency = 0.300
+        Frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+        Frame.BorderSizePixel = 5
+        Frame.Position = UDim2.new(0, 0, 0.5, -62)
+        Frame.Size = UDim2.new(0, 702, 0, 124)
+        Frame.Active = true
+         
+         
+        TextLabel.Parent = Frame
+        TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        TextLabel.BackgroundTransparency = 3.000
+        TextLabel.Size = UDim2.new(0, 702, 0, 124)
+        TextLabel.Font = Enum.Font.SourceSans
+        TextLabel.Text = "This GUI is not the best with Every exploit. It's mainly for paid exploits, such as Script ware and Synapse, If you dont have a paid exploit, then I Suggest You Use Krnl Or Fluxus, Press L To Toggle The UI. I recommend having at least laser when using silent aim with a knife, incase you dont have try out spam knife!"
+        TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+        TextLabel.TextScaled = true
+        TextLabel.TextSize = 14.000
+        TextLabel.TextWrapped = true
+         
+        TextButton.Parent = Frame
+        TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        TextButton.BackgroundTransparency = 3.000
+        TextButton.Position = UDim2.new(0.928774953, 0, 0.669354856, 0)
+        TextButton.Size = UDim2.new(0, 42, 0, 41)
+        TextButton.Font = Enum.Font.SourceSans
+        TextButton.Text = "Close"
+        TextButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+        TextButton.TextScaled = true
+        TextButton.TextSize = 50.000
+        TextButton.TextWrapped = true
+        TextButton.MouseButton1Down:connect(function()
+            Frame.Visible = false
+        end)
+         
+         
+         
+         
+        end
+end)
+btns:Button("Xeny Ware (MM2)", function()
+    DiscordLib:Notification("Notification", "ruinning Xeny ware (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AdvancedWare/VScript/main/Script", true))()
+end)
+btns:Button("MM2 Script (Mobiles)", function()
+    DiscordLib:Notification("Notification", "ruinning MM2 gui (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202", true))();
+end)
+btns:Button("Vynixus (MM2)", function()
+    DiscordLib:Notification("Notification", "ruinning Vynixus (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
+
+local serv = win:Server("Fe scripts", "http://www.roblox.com/asset/?id=6031075938")
+
+local btns = serv:Channel("Fe scripts (Only)")
+btns:Button("CloVr", function()
+    DiscordLib:Notification("Notification", "ruinning CloVr (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/Clovr-for-SKHub-Kavo-and-Orion/main/O"))()
+end)
+btns:Button("Nameless", function()
+    DiscordLib:Notification("Notification", "ruinning Nameless (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/Script-for-skhub/main/Name"))()
+end)
+btns:Button("Fe Psycho Slasher (Needs Slasher Sword)", function()
+    DiscordLib:Notification("Notification", "ruinning Psycho Slasher (Needs Slasher Sword) (4 sec)", "Okay!")
+    setclipboard("https://www.youtube.com/watch?v=BnLZweNXJig")
+    wait("4")
+    DiscordLib:Notification("Notification", "You already have copied a link to get the Slasher sword", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet(('https://pastefy.ga/iGyVaTvs/raw'),true))()
+end)
+
+local btns = serv:Channel("Fe scripts Hubs (Only)")
+
+btns:Button("Pendulum V5", function()
+    DiscordLib:Notification("Notification", "ruinning Pendulum (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+btns:Button("Universal Fe", function()
+    DiscordLib:Notification("Notification", "ruinning Universal Fe (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
+end)
+btns:Button("Shadows Scripts", function()
+    DiscordLib:Notification("Notification", "ruinning Shadows Scripts (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/other-script-V/main/loading%3Av"))()
+end)
+btns:Button("1x1x1x1 Gui", function()
+    DiscordLib:Notification("Notification", "ruinning 1x1x1x1 gui (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/1x1/main/1x1x1x1'))()
+end)
+
+local serv = win:Server("Credits", "http://www.roblox.com/asset/?id=6031075938")
+
+local btns = serv:Channel("Credits info")
+btns:Label("Dev: Triangleex#3487.Scripter: ! World Hub#4124. Designer: ! World Hub#4124")
+btns:Label("Changelog")
+btns:Label("(+) New Gui!")
+btns:Button("Discord", function()
+    DiscordLib:Notification("Notification", "Join our discord: v you already have the copied link!", "Okay!")
+    setclipboard("https://discord.gg/NYxgXzt8aK")
+end)
