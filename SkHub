@@ -1,0 +1,21 @@
+--new project+
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("(New) Sk Hub")
+
+local serv = win:Server("Games", "http://www.roblox.com/asset/?id=6031075938")
+
+local btns = serv:Channel("Prison life (Only)")
+
+btns:Button("Admin for mobiles", function()
+    DiscordLib:Notification("Notification", "running Admin (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet('https://pastebin.com/raw/iZ64yzjE'))();
+end)
+btns:Button("Septex Adm (Needs Key)", function()
+    DiscordLib:Notification("Notification", "ruinning Septex Adm (3 sec)", "Okay!")
+    wait("3")
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+end)
+
+local serv = win:Server("Fe scripts", "Yours sex scripts :v")
