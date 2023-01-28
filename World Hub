@@ -1,9 +1,9 @@
 --new project+
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
 
-local win = DiscordLib:Window("World Hub")
-DiscordLib:Notification("World Hub (5 sec to run)", "Unete a nuestro discord el link ya lo tienes copiado/Join our discord the link you already have copied", "Okay!")
-setclipboard("https://discord.gg/NYxgXzt8aK")
+local win = DiscordLib:Window("Net Hub")
+DiscordLib:Notification("Net Hub (Free) (5 sec to run)", "Unete a nuestro discord el link ya lo tienes copiado/Join our discord the link you already have copied", "Okay!")
+setclipboard("")
 wait("5")
 
 local serv = win:Server("Games", "http://www.roblox.com/asset/?id=6031075938")
@@ -298,13 +298,12 @@ end)
 local serv = win:Server("Credits", "http://www.roblox.com/asset/?id=6031075938")
 
 local btns = serv:Channel("Credits info")
-btns:Label("Dev: Triangleex#3487.Scripter: ! World Hub#4124.")
-btns:Label("Designer: ! World Hub#4124")
+btns:Label("Dev: ! World Hub#4124.")
 btns:Label("Changelog")
 btns:Label("(+) Added Chat spy")
 btns:Button("Discord", function()
     DiscordLib:Notification("Notification", "Join our discord: v you already have the copied link!", "Okay!")
-    setclipboard("https://discord.gg/NYxgXzt8aK")
+    setclipboard("")
 end)
 btns:Button("Chat spy", function()
     DiscordLib:Notification("Notification", "ruinning Chat spy (3 sec)", "Okay!")
